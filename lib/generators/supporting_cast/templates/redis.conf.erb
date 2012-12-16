@@ -1,0 +1,13 @@
+# Redis configuration
+daemonize no
+pidfile ./tmp/pids/redis_<%= env %>.pid
+port <%= port %>
+timeout 300
+save 900 1
+save 300 10
+save 60 10000
+dbfilename ./db/<%= env %>.rdb
+loglevel debug
+logfile ./log/redis_<%= env %>.log
+databases 1
+glueoutputbuf yes
