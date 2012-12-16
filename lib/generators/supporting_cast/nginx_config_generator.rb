@@ -16,6 +16,10 @@ module SupportingCast
         template 'nginx.conf.erb', 'config/nginx/nginx.conf'
       end
 
+      def ssl_certificate
+        Rails::Generators.invoke "supporting_cast:ssl_certificate" if yes?("Add self-signed ssl ssl_certificate for nginx? [yn]")
+      end
+
     end
   end
 end
