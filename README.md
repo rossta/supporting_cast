@@ -24,7 +24,7 @@ Or install it yourself as:
 
 ## Configurations
 
-SupportingCast is intended to make it easier to get backing services up and running for your Rails app for your development and test environments. A guiding principle, largely inspired by the [12 Factor App](http://www.12factor.net/), is to minimize divergence between development and production environments.
+SupportingCast is intended to make it easier to get backing services up and running for Rails development and test environments. A guiding principle, largely inspired by the [12 Factor App](http://www.12factor.net/), is to minimize divergence between development and production environments.
 
 ### Redis
 
