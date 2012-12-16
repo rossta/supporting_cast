@@ -1,6 +1,6 @@
 # SupportingCast
 
-Opinionated generators for common Rails supporting cast services, e.g. Redis, nginx, sidekiq, nginx
+Opinionated generators for common Rails backing services, e.g. Redis, nginx, sidekiq, nginx, i.e., the supporting cast.
 
 ## Installation
 
