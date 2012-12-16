@@ -36,7 +36,7 @@ As Francis Hwang said in his post, [Testing Rails Against a Running Redis Instan
 > 2. Stub Redis
 > 3. Stop messing around and just use Redis
 
-SupportingCast will generate configurations for running separate Redis instances for development and test. Paired with the foreman configuration, it's dead simple to  You could [use Redis namespaces to separate environments}(http://dev.af83.com/2012/07/31/should-we-namespace-redis.html), but why mess around?
+SupportingCast will generate configurations for running separate Redis instances for development and test. Paired with the foreman configuration, it's dead simple to  You could [use Redis namespaces to separate environments](http://dev.af83.com/2012/07/31/should-we-namespace-redis.html), but why mess around?
 
 ## Contributing
 
