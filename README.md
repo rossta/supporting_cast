@@ -1,12 +1,12 @@
 # SupportingCast
 
-TODO: Write a gem description
+Opinionated generators for common Rails supporting cast services, e.g. Redis, nginx, sidekiq, nginx
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'supporting_cast'
+    gem 'supporting_cast', :group => :development
 
 And then execute:
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ rails g supporting_cast:config          # Bootstrap the whole supporting cast
+
+    $ rails g supporting_cast:<name>_config   # Generate config for given cast member
 
 ## Contributing
 
